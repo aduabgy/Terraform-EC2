@@ -4,7 +4,7 @@ provider "aws" {
   #   secret_key = ""	
 }
 
-resource "aws_instance" "intro" {
+resource "aws_instance" "intro-pipeline" {
   ami                    = var.AMI
   instance_type          = var.TYPE
   availability_zone      = var.ZONE
